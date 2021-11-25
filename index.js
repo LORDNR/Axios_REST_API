@@ -12,7 +12,7 @@ const port = process.env.PORT || 3001
 app.get('/', (req, res) => {
     return res.send({
         err: false,
-        msg: 'Welcome to RESTful CRUD API with Nodejs, Express, Mysql',
+        msg: 'Welcome to Axios_REST_API',
         written_by: 'Ratchanon',
     })
 })
